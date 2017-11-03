@@ -16,7 +16,7 @@ public class TomcatServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		resp.setCharacterEncoding("UTF-8");
 		PrintWriter out = resp.getWriter();
-		out.print("Hello world! 你好，世界！");
+		out.print("测试正常,可以访问Tomcat服务器!,是不是找揍?这么频繁的访问我?");
 		out.flush();
 		out.close();
 	}
